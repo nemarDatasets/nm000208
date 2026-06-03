@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000208-blue)](https://doi.org/10.82901/nemar.nm000208)
+
 # Door lock control experiment (15 subjects, 4 classes, 31 EEG ch)
 
 Door lock control experiment (15 subjects, 4 classes, 31 EEG ch).
