@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "enriched",
+  "title": "Door lock control experiment (15 subjects, 4 classes, 31 EEG ch)",
+  "description": "A P300-based brain-computer interface dataset for home appliance control, comprising EEG recordings from 15 healthy subjects performing a visual oddball task with door lock control application. The dataset includes 31-channel EEG data sampled at 500 Hz, with target and non-target event classifications across 50 training and 30 testing trials per subject, acquired using active electrodes with linked mastoid reference.",
+  "methods_description": "EEG data were acquired using a 31-channel actiCHamp system (Brain Products) with active sensors at standard 10-20 montage positions, sampled at 500 Hz with linked mastoid reference. Subjects performed a visual P300 oddball task with 750 ms stimulus onset asynchrony, presented on an LCD display with visual feedback. Each session included 50 training and 30 testing blocks per subject.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Jongmin Lee": {},
     "Minju Kim": {},
@@ -14,44 +19,6 @@
     "Laehyun Kim": {},
     "Sung-Phil Kim": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.3389/fnhum.2024.1320457",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000208",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000208",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "title": "Door lock control experiment (15 subjects, 4 classes, 31 EEG ch)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "635.0 MB (435 files)"
-  ],
-  "formats": [
-    ".bdf",
-    ".json",
-    ".md",
-    ".tsv",
-    ".yaml",
-    ".yml"
-  ],
-  "description": "A P300-based brain-computer interface dataset for home appliance control, comprising EEG recordings from 15 healthy subjects performing a visual oddball task with door lock control commands. The dataset includes 31-channel EEG data sampled at 500 Hz, with target and non-target stimulus classifications across 50 training and 30 testing trials per subject, designed to evaluate BCI performance in real-world home automation applications.",
-  "methods_description": "EEG data were acquired using a 31-channel actiCHamp system (Brain Products) at 500 Hz sampling rate with linked mastoid reference and active sensors. Participants performed a visual P300 oddball paradigm with 750 ms stimulus onset asynchrony, viewing flash stimuli on an LCD display for door lock control. Each subject completed one session with 50 training and 30 testing blocks, with trial duration of 1.0 s and visual feedback provided online.",
   "keywords": [
     {
       "term": "EEG"
@@ -72,14 +39,51 @@
       "term": "oddball paradigm"
     },
     {
-      "term": "visual oddball"
-    },
-    {
       "term": "home appliance control"
-    },
-    {
-      "term": "door lock control"
     }
   ],
-  "source_hash": "c6abee16f23481c98416580913ee6518141bfe3060f124f86ba333074894dd6a"
+  "related_identifiers": [
+    {
+      "identifier": "10.3389/fnhum.2024.1320457",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000208",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000208",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "635.0 MB (435 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "source_hash": "8d61bb0a61012f4fcaaae03c9feaa99cb486481c48b24b27f6a24d52a75a2fe8"
 }
