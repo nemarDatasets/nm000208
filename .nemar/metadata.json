@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Door lock control experiment (15 subjects, 4 classes, 31 EEG ch)",
-  "description": "A P300-based brain-computer interface dataset for home appliance control, comprising EEG recordings from 15 healthy subjects performing a visual oddball task with door lock control application. The dataset includes 31-channel EEG data sampled at 500 Hz, with target and non-target event classifications across 50 training and 30 testing trials per subject, acquired using active electrodes with linked mastoid reference.",
-  "methods_description": "EEG data were acquired using a 31-channel actiCHamp system (Brain Products) with active sensors at standard 10-20 montage positions, sampled at 500 Hz with linked mastoid reference. Subjects performed a visual P300 oddball task with 750 ms stimulus onset asynchrony, presented on an LCD display with visual feedback. Each session included 50 training and 30 testing blocks per subject.",
+  "description": "This dataset comprises EEG recordings from 15 healthy subjects performing a P300-based brain-computer interface task for door lock control. The experiment employed a visual oddball paradigm with 31-channel EEG acquisition at 500 Hz, yielding target and non-target event classifications across 50 training and 30 testing trials per subject. The data supports the development and evaluation of P300-based BCI systems for home appliance control applications.",
+  "methods_description": "EEG data were acquired using a 31-channel actiCHamp system (Brain Products) at 500 Hz sampling rate with linked mastoid reference and active sensors. The standard 10-20 montage was employed. Subjects performed a visual oddball task with flash stimuli presented on an LCD display at 750 ms stimulus onset asynchrony. Each session included 50 training and 30 testing blocks per subject.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -27,7 +27,9 @@
       "term": "P300"
     },
     {
-      "term": "brain-computer interface"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "Event-Related Potentials, P300",
@@ -54,11 +56,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000208",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.21105/joss.01896",
       "identifier_type": "DOI",
       "relation_type": "References"
@@ -67,6 +64,11 @@
       "identifier": "10.1038/s41597-019-0104-8",
       "identifier_type": "DOI",
       "relation_type": "References"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000208",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
@@ -75,15 +77,16 @@
     "eeg"
   ],
   "sizes": [
-    "635.0 MB (435 files)"
+    "1.3 GB (884 files)"
   ],
   "formats": [
     ".bdf",
     ".json",
+    ".mat",
     ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "8d61bb0a61012f4fcaaae03c9feaa99cb486481c48b24b27f6a24d52a75a2fe8"
+  "source_hash": "763e3c8e60304bebcbd5bbe819a495f4bd4bb7c94cc540c20efffa696bd5402d"
 }
