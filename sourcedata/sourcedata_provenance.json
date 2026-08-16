@@ -1,15 +1,15 @@
 {
  "dataset": "nm000208",
  "moabb_class": "Lee2024_DL",
- "moabb_version_used": "1.5.0",
- "retrieved": "2026-08-11",
- "retrieved_by": "moabb.datasets.Lee2024_DL.data_path()",
+ "moabb_version_used": "1.5.0dev0",
+ "retrieved": "2026-08-13",
+ "retrieved_by": "--from-dir (moabb data_path bypassed)",
  "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-lee2024erp-data/Doorlock",
- "license": "CC-BY-4.0",
- "doi": "10.3389/fnhum.2024.1320457",
+ "license": "see dataset_description.json",
+ "doi": null,
  "naming": "upstream_filenames_restored",
- "n_files": 449,
- "total_bytes": 657962250,
+ "n_files": 480,
+ "total_bytes": 697995216,
  "files": [
   {
    "file": "Dat_sub01/cal_sig.mat",
@@ -1135,6 +1135,192 @@
    "file": "Dat_sub08/cal_sig.mat",
    "bytes": 7117949,
    "sha256": "a2578be4207d894e5f682845210cb891541f8464e29f37ce5d26898a03216523"
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing1.mat",
+   "bytes": 967100,
+   "sha256": "ae8ac9b3e02b7d98ad0279446876288ac5d6cea665dd8fa7d40aa2923135cc3f",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing10.mat",
+   "bytes": 505859,
+   "sha256": "25ecf4ece5596c353fcccdd7eda60319228bea7666019d5ddea2a7f3d3f29ae1",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing11.mat",
+   "bytes": 508344,
+   "sha256": "24dc0465046b4d3f7f13f523cf10261b42fd8042d88efc626cf36c95de7e85e7",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing12.mat",
+   "bytes": 508777,
+   "sha256": "8ce0e988d3ac09be2f77de1d6f991f34a586bfc14b539ebda27ffe99573c280a",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing13.mat",
+   "bytes": 505112,
+   "sha256": "5c807e96e8d6f3536a894b310489eab8cad803bbae036a770e98610a5f86c693",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing14.mat",
+   "bytes": 505444,
+   "sha256": "e64cbbdf3582820604ba9701677b54494c53991e66a1d0b189a100826edfdc9e",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing15.mat",
+   "bytes": 513643,
+   "sha256": "703015bd0ea350e5ad54f042e246dda5bbc913412e7ed2250162daae99d378d0",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing16.mat",
+   "bytes": 505496,
+   "sha256": "8eba47a693ae0246b60122c798b1267bede7ade23b82b52a27daf9f2a93e2abd",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing17.mat",
+   "bytes": 507761,
+   "sha256": "e1c04a565fa55efdbf940ee9795d04d1618f4f0a73639d628748aa72146dab3e",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing18.mat",
+   "bytes": 507583,
+   "sha256": "98ab7c2708285dc2308e670302a126e30beea6cd6237960d8f7721e92fa98066",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing19.mat",
+   "bytes": 506643,
+   "sha256": "d1bebf047b008eb440ff2771c5cd044e1fb5397bc630f237698f40c12c6b12a7",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing2.mat",
+   "bytes": 489774,
+   "sha256": "2ef2aab670a7b79fe9d382eb13641bc4e3864800da2aecc5a578d1e539e2d931",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing20.mat",
+   "bytes": 501516,
+   "sha256": "bc6dade9393549031b192506651a03afc39f64c1cb0c52098c2f64554a846134",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing21.mat",
+   "bytes": 503124,
+   "sha256": "e9169cbcd9b5ae2a124e79133f4bcafd222363de1d6ff3b8ab7a93c7b934be94",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing22.mat",
+   "bytes": 508102,
+   "sha256": "73814419cbfe0fd9436695485fc434cd0e805537fc59f77fd0be6f294649f846",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing23.mat",
+   "bytes": 502538,
+   "sha256": "840cc86c4d2209039ab8398b61f4c14237586847c66606fbea19f1156227b414",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing24.mat",
+   "bytes": 498466,
+   "sha256": "63b7ad3f8aef24393cdf8cb79dc4ddce50d9d3ada3349dbe867742c924064680",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing25.mat",
+   "bytes": 501013,
+   "sha256": "98eebbb9f07d7a20412d798679b2426db2c2f0599be72bb736aee39c806b5dd2",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing26.mat",
+   "bytes": 501726,
+   "sha256": "812e1b720ea85c97b4875b65392af162d5508ed56114547cdaaf3580c05449a0",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing27.mat",
+   "bytes": 502825,
+   "sha256": "02418859e24f098b33549e224a2f3ca75e100308a5bc1bc54db9e1d10bff6c08",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing28.mat",
+   "bytes": 502820,
+   "sha256": "47284b42cd9b70d06e946ed4768511371002f715448b98c3f9119a84e51d5c43",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing29.mat",
+   "bytes": 504574,
+   "sha256": "f8c27427c4a44fe7ad6946a912e339a282037f3992e75176c13f90526bb544eb",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing3.mat",
+   "bytes": 504274,
+   "sha256": "a8ee37c064334c239515e5131c6f54eaff995ee072e075eb762daed19d38ea98",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing30.mat",
+   "bytes": 499805,
+   "sha256": "1441cf55ae5221410fb920754d4e20a222ea1daad908fd31edb17dc68945694b",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing4.mat",
+   "bytes": 508648,
+   "sha256": "e1a0b8c3c5a7782ee988213a13d6e77e3d00d0ec54de5233fe1bc62327e5f455",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing5.mat",
+   "bytes": 507067,
+   "sha256": "4f18ac1171ba25ae69d818fd831514d0eb9fb9fc6dbcf5e72beb512a00564de2",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing6.mat",
+   "bytes": 506630,
+   "sha256": "75e7fa820a55d70e9576a1b5163c0fdf947c75c41a82716111c8beb3f6113f4d",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing7.mat",
+   "bytes": 507514,
+   "sha256": "f9742103d8721a09a33ec4987739b370e335a42d382342d331964a04d1ce6a3b",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing8.mat",
+   "bytes": 506305,
+   "sha256": "7ea65f3c22b49987bb47a194e1554b67068e194ba84e16dc12dcb8c01a6c77b9",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Testing9.mat",
+   "bytes": 507294,
+   "sha256": "eeb1c97f6533b7c9b71c2bbdbb695cb1119ec9aff137218b00e5c372285503a6",
+   "subject": ""
+  },
+  {
+   "file": "Dat_sub08/sub8_Training.mat",
+   "bytes": 24427189,
+   "sha256": "6aa27b9ddba30aeaeb675d74e09691f05c1768ddbc2a292b5996c85d780f8267",
+   "subject": ""
   },
   {
    "file": "Dat_sub09/cal_sig.mat",
