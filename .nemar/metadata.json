@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Door lock control experiment (15 subjects, 4 classes, 31 EEG ch)",
-  "description": "EEG dataset from 15 healthy participants performing a P300-based brain-computer interface task to control a door lock, one of several home appliances. Data were recorded with 31 active EEG channels at 500 Hz using a visual oddball paradigm with four stimulus classes. Each subject completed 50 training and 30 online testing blocks. The dataset supports research on ERP-based BCIs and inter-subject transfer learning.",
-  "methods_description": "EEG was recorded with an actiCHamp (Brain Products) amplifier using 31 active electrodes placed according to the 10-20 system, referenced to linked mastoids, and sampled at 500 Hz. Participants viewed flashing visual stimuli on an LCD display (stimulus onset asynchrony of 750 ms) in a 4-class oddball paradigm, with Target and NonTarget events. Each subject completed 50 training blocks and 30 online testing blocks with visual feedback.",
+  "description": "EEG dataset from 15 healthy participants performing an ERP-based (P300) brain-computer interface task for controlling a door lock, one of several home appliances in the original study. Thirty-one EEG channels were recorded at 500 Hz with an actiCHamp system while visual flash stimuli were presented in a 4-class oddball paradigm. Each subject completed 50 training and 30 testing blocks, with online visual feedback. The dataset supports research on P300 BCIs and inter-subject transfer learning.",
+  "methods_description": "EEG was recorded with a Brain Products actiCHamp active-electrode system (31 channels, 10-20 montage, linked-mastoid reference, 500 Hz). Participants viewed an LCD display with flashing visual stimuli (stimulus onset asynchrony of 750 ms) in a 4-class oddball paradigm. Target and non-target events were epoched over a 0-1 s interval. Each subject completed 50 training and 30 online testing blocks with visual feedback.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -27,23 +27,20 @@
       "term": "P300"
     },
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
       "term": "Event-Related Potentials, P300",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D018913"
     },
     {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
       "term": "home appliance control"
     },
     {
-      "term": "visual oddball"
-    },
-    {
-      "term": "transfer learning"
+      "term": "oddball paradigm"
     }
   ],
   "related_identifiers": [
@@ -95,5 +92,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "b712d9e08dcdea8c34f7f271ac94752d8ca9acfba817bc1a817f59bc5b0a7791"
+  "source_hash": "e7a3ba587d9dfa1cac87757eb509bf84e1f847b306828dc739089134c109d0a5"
 }
